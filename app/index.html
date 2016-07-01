@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title> Phone book application</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+
+    <!-- Bootstrap styles and scripts -->
+    <link rel="stylesheet" href="../bower_components/bootstrap/dist/css/bootstrap.min.css" />
+    <script src="../bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="../bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+
+    <!-- angular scripts -->
+    <script src="..\bower_components\angular\angular.min.js"></script>
+    <script src="..\bower_components\angular-ui-router\release\angular-ui-router.min.js"></script>
+
+    <!-- user defined styles -->
+    <link rel="stylesheet" href="css\userstyles.css" />
+
+    <!-- main application program -->
+    <script src="js\app.js"></script>
+
+</head>
+
+<body ng-app="PhoneBookApp">
+    <!-- top level container -->
+    <div class="container-fluid">
+          <div ng-include="'Partials/mainHeader.html'"> </div>
+          <div ng-include="'Partials/createContact.html'"></div>
+          <div ng-include="'Partials/mainMenu.html'"></div>
+          <div ng-include="'Partials/userdetails.html'"></div>
+
+    </div>
+</body>
+
+</html>

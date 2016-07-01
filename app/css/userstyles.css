@@ -1,0 +1,31 @@
+.container-fluid {
+  border: 1px solid black;
+  border-radius: 5px;
+  max-width: 800px;
+
+}
+.table {
+  max-width: 800px;
+}
+
+#logo {
+  font-size: 20px;
+}
+td {
+  word-wrap:break-word;
+  word-break:break-word;
+}
+.btn {
+  white-space: normal;
+}
+@media screen and (max-width: 300px) {
+    .button-text {
+        display: none;
+    }
+}
+#menu {
+  padding-bottom:10px;
+}
+#theader {
+  width: 100%;
+}
